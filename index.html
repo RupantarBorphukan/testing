@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cairn Oil and Gas Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="./img/logo.png" alt="Cairn Logo" class="logo" style="border-radius: 10px;">
+        <h1>CB/OS-2 Documentation</h1>
+        <img src="/img/vedanta_logo.jpg" alt="Vedanta Logo" class="logo" style="border-radius: 5px;">
+    </div>
+    <div class="main-content">
+        <img src="/img/oil_rig.jpg" alt="Oil Rig" class="hero-image" style="border-radius: 10px;">
+        <div class="menu">
+            <div class="menu-item">
+                <a href="##">Offshore</a>
+                <p>Documents Relevant Offshore Projects</p>
+            </div>
+            <div class="menu-item">
+                <a href="##">Onshore</a>
+                <p>Documents Relevant Onshore Projects</p>
+            </div>
+            <div class="menu-item">
+                <a href="##">Operational</a>
+                <p>Operation Control Process Documents</p>
+            </div>
+            <div class="menu-item">
+                <a href="##">Drawing</a>
+                <p>P&ID, PFD's, Data Sheet, Isometric</p>
+            </div>
+            <div class="menu-item">
+                <a href="##">IMS</a>
+                <p>Integrated Management System Documents</p>
+            </div>
+            <div class="menu-item">
+                <a href="##">Certificates</a>
+                <p>QA/QC Certificates</p>
+            </div>
+            <div class="menu-item">
+                <a href="##">Standards</a>
+                <p>ISO, OISD, API, NFPA, BSI Online Repository</p>
+            </div>
+            <div class="menu-item">
+                <a href="##">Media</a>
+                <p>Available CD/DVD's of Technical Document</p>
+            </div>
+            <div class="menu-item">
+                <a href="##">Image Library</a>
+                <p>Old Photo CB/OS-2</p>
+            </div>
+        </div>
+    </div>
+    <div class="cursor"></div>
+  <div class="cursor2"></div>
+    <script> 
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
+    </script>
+</body>
+</html>
