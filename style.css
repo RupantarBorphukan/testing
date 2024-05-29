@@ -36,7 +36,12 @@ body {
     text-align: center;
     padding: 20px;
 }
-
+.main-content h2{
+    color: #300bec;
+}
+.main-content h3{
+    color: rgb(5, 11, 97);
+}
 .hero-image {
     width: 100%;
     max-width: 800px;
@@ -44,9 +49,11 @@ body {
 }
 
 .menu {
-    display: flex;
+    display:flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 500px;
 }
 
 .menu-item {
@@ -129,3 +136,4 @@ body {
 .header:hover ~ .cursor2{
   opacity: 0;
 }
+
