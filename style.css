@@ -42,12 +42,37 @@ body {
 .main-content h3{
     color: rgb(5, 11, 97);
 }
+/* .hero-image {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+} */
 .hero-image {
     width: 100%;
     max-width: 800px;
     margin: 20px 0;
-}
 
+    height: auto;
+    border: 10px solid transparent;
+    animation: border-animation 5s infinite;
+}
+@keyframes border-animation {
+    0% {
+        border-color: red;
+    }
+    25% {
+        border-color: blue;
+    }
+    50% {
+        border-color: green;
+    }
+    75% {
+        border-color: yellow;
+    }
+    100% {
+        border-color: red;
+    }
+}
 .menu {
     display:flex;
     flex-wrap: wrap;
@@ -134,3 +159,5 @@ body {
 .header:hover ~ .cursor2{
   opacity: 0;
 }
+
+/* background video */
